@@ -3,8 +3,8 @@ import asyncio
 import requests
 import random
 
-from env import *
-from persona import *
+from config.env import *
+from config.persona import *
 from classes.botstate import BotState
 
 state = BotState(persona, API_MAX_CONTEXT_SIZE)
