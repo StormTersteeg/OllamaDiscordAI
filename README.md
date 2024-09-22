@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/05804ccc-9e4b-410c-8e51-3c3adffc3425)
+
 # Ollama Discord Bot
 
 This project is a `discord.py`-based bot that integrates with the Ollama API, enabling an AI-powered companion for your Discord server. The bot can hold dynamic conversations and adapt its responses based on a context system, while also allowing you to define its personality traits and characteristics.
@@ -77,6 +79,8 @@ Once the bot is running, simply mention the bot in a channel like:<br>
 
 The bot will reply based on its persona and context:<br>
 `Blue: Haha, okay! Why don’t skeletons fight each other? They don’t have the guts! 😎`
+
+![image](https://github.com/user-attachments/assets/05804ccc-9e4b-410c-8e51-3c3adffc3425)
 
 <hr><br>
 Happy chatting with your AI-powered Discord companion!
