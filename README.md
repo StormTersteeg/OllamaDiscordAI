@@ -59,13 +59,14 @@ python bot.py
 
 ## File Structure
 ```bash
-/ollama-discord-bot
+ollama-discord-bot/
 │
 ├── bot.py                 # Main bot logic
 ├── classes/
 │   └── botstate.py         # Bot state management, message queue, context handling
-├── env.py                  # Environment variables, API settings
-├── persona.py              # Persona configuration for the bot's character and behavior
+├── config/
+│   ├── env.py              # Environment variables, API settings
+│   └── persona.py          # Persona configuration for the bot's character and behavior
 ├── requirements.txt        # Required Python dependencies
 └── context.txt             # Stores conversation history for context
 ```
