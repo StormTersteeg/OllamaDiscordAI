@@ -63,6 +63,7 @@ async def check_messages():
         filtered_output = output.replace(name + ":", "").strip()
 
         state.add_to_context(output)
+        bot_reply = None
 
         try:
           bot_reply = await message.channel.send(filtered_output, reference=message, mention_author=False)
@@ -71,7 +72,8 @@ async def check_messages():
           print(e)
 
       state.thinking = False
-      asyncio.create_task(rethink(message, bot_reply))
+      if bot_reply:
+        asyncio.create_task(rethink(message, bot_reply))
     await asyncio.sleep(QUEUE_DELAY)
 
 # Store incoming messages in the queue
