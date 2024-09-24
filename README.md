@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/05804ccc-9e4b-410c-8e51-3c3adffc3425)
+
 # Ollama Discord Bot
 
 This project is a `discord.py`-based bot that integrates with the Ollama API, enabling an AI-powered companion for your Discord server. The bot can hold dynamic conversations and adapt its responses based on a context system, while also allowing you to define its personality traits and characteristics.
@@ -38,6 +40,8 @@ Update the env.py file with the following:
 - `API_ENDPOINT`: The endpoint URL for your Ollama API.
 - `API_MODEL`: The AI model to be used for generating responses (e.g., LLama-3.1-8b-q5-k-m).
 
+For a simple and quick setup of an Ollama API, use [msty](https://msty.app/), or something similar.
+
 Customize the persona:
 Modify `persona.py` to adjust the personality and tone of your bot. The file defines the bot's character, its name, and how it responds to user inputs.
 
@@ -59,13 +63,14 @@ python bot.py
 
 ## File Structure
 ```bash
-/ollama-discord-bot
+ollama-discord-bot/
 │
 ├── bot.py                 # Main bot logic
 ├── classes/
 │   └── botstate.py         # Bot state management, message queue, context handling
-├── env.py                  # Environment variables, API settings
-├── persona.py              # Persona configuration for the bot's character and behavior
+├── config/
+│   ├── env.py              # Environment variables, API settings
+│   └── persona.py          # Persona configuration for the bot's character and behavior
 ├── requirements.txt        # Required Python dependencies
 └── context.txt             # Stores conversation history for context
 ```
@@ -76,6 +81,8 @@ Once the bot is running, simply mention the bot in a channel like:<br>
 
 The bot will reply based on its persona and context:<br>
 `Blue: Haha, okay! Why don’t skeletons fight each other? They don’t have the guts! 😎`
+
+![image](https://github.com/user-attachments/assets/05804ccc-9e4b-410c-8e51-3c3adffc3425)
 
 <hr><br>
 Happy chatting with your AI-powered Discord companion!
