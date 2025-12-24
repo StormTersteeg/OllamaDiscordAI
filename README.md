@@ -84,5 +84,3 @@ The bot will reply based on its persona and context:<br>
 
 ![image](https://github.com/user-attachments/assets/05804ccc-9e4b-410c-8e51-3c3adffc3425)
 
-<hr><br>
-Happy chatting with your AI-powered Discord companion!
